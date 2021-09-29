@@ -10,12 +10,10 @@ import PortfolioPreview from '../components/PortfolioPreview/index.jsx';
 const projects = Astro.fetchContent('./project/**/*.md');
 const featuredProject = projects[0];
 
-// Full Astro Component Syntax:
-// https://docs.astro.build/core-concepts/astro-components/
 ---
-<html lang="en">
+<html lang="de">
   <head>
-    <MainHead title="Jeanine White: Personal Site" />
+    <MainHead title="Marco Grahl Homepage" />
     <style lang="scss">
       $w-s: 750px;
 
@@ -46,6 +44,7 @@ const featuredProject = projects[0];
         top: 0;
         left: 0;
         z-index: 2;
+        opacity: 3%;
       }
 
       .gradient2 {
@@ -92,12 +91,14 @@ const featuredProject = projects[0];
       }
 
       .sectionTitle {
+        font-family: var(--f-display);
         font-weight: 700;
         font-size: var(--f-u8);
         margin-top: 4rem;
         margin-bottom: 2rem;
       }
-
+      .sectionHeroTitle{
+      }
       .role {
         position: relative;
         display: inline-block;
@@ -139,33 +140,24 @@ const featuredProject = projects[0];
           }
         }
       }
-
-      .invert {
-        position: absolute;
-        color: var(--t-fg);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        pointer-events: none;
-        clip-path: polygon(0% 100%, 100% 100%, 100% 200%, 0% 200%);
-        transition: clip-path cubic-bezier(0.4, 0, 0.5, 1) 150ms;
-      }
-
       .desc {
-        font-size: var(--f-u2);
-        margin-top: 1.5rem;
+        font-family: var(--f-display);
+        font-weight: 700;
+        font-size: clamp(var(--f-u4),5vw, var(--f-u14));
+        margin-top: -1rem;
         margin-bottom: 0;
+        max-width: 12ch;
+        padding: 0.5rem 1rem;
+        line-height: 0.98;
       }
 
       .subtitle {
-        display: block;
+        display: inline-block;
+        color: var(--c-gray);
         font-weight: 400;
         font-size: var(--f-d6);
         letter-spacing: -0.0625em;
+        padding: 0.5rem 1rem;
       }
 
       .bio {
@@ -189,56 +181,33 @@ const featuredProject = projects[0];
         width="1600"
         height="1131"
         class="img"
-        src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1200&q=75"
-        srcSet="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1200&q=75 800w,
-        https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1200&q=75 1200w,
-        https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1600&q=75 1600w,
-        https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=2400&q=75 2400w,"
-        sizes="(max-width: 800px) 800px, (max-width: 1200px) 1200px, (max-width: 1600px) 1600px, (max-width: 2400px) 2400px, 1200px"
+        src="/assets/hero-img.jpg"
       />
       <div class="gradient" />
       <div class="gradient2" />
       <div class="overlay">
         <h1 class="title">
-          <small class="subtitle">The personal site of </small>Jeanine White
+          <small class="subtitle"> Marco Grahl</small>
         </h1>
-        <div>
-          <span class="role">
-            👩‍💻 Developer <span class="invert">👩‍💻 Developer</span>
-          </span>&nbsp;
-          <span class="role">
-            🎤 Speaker <span class="invert">🎤 Speaker</span>
-          </span>&nbsp;
-          <span class="role">
-            ✏️ Writer <span class="invert">✏️ Writer</span>
-          </span>
-        </div>
-        <p class="desc">Lover of dogs, roadtrips, and poetry.</p>
+        <p class="desc">Mediengestalter Digital & Print</p>
       </div>
     </header>
     <main class="wrapper mt4 mb4">
       <div class="grid">
         <div class="section">
-          <h3 class="sectionTitle">Selected Work</h3>
+          <h3 class="sectionTitle">Berlin Wind</h3>
           <PortfolioPreview project={featuredProject} />
           <div class="tac mt4">
             <a href="/projects">
-              <Button>View All</Button>
+              <Button>Alle Projekte</Button>
             </a>
           </div>
         </div>
         <div class="section">
-          <h3 class="sectionTitle">About me</h3>
+          <h3 class="sectionTitle">Über mich</h3>
           <p class="bio">
-            <span>Hello!</span> I’m Jeanine, and this is my website. It was made using{' '}
-            <a href="https://github.com/snowpackjs/astro" target="_blank" rel="nofollow">
-              Astro
-            </a>
-            , a new way to build static sites. This is just an example template for you to modify.
-          </p>
-          <p>
-            <a href="/about">Read more</a>
-          </p>
+            <span>Hi,</span>ich bin ein Front-End Engineer, mit technischen Verständnis und einer gesungen Portion Kreativität. Mein Schwerpunkt liegt in der Umsetzung von Designs, mit einem Blick auf Performance. Das Web und damit verbundenen Technologien bewegen sich rasant vorwärts,<br/> <strong>ich behalte für Sie den Überblick.</strong>
+           </p>
         </div>
       </div>
     </main>

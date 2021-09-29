@@ -4,6 +4,9 @@
   background: var(--t-fg);
   border: 1px solid #f0f0f0;
 }
+.descWrapper{
+padding: 1.5rem;
+}
 
 .title {
   position: absolute;
@@ -14,9 +17,9 @@
   align-items: center;
   justify-content: center;
   margin: 0;
-  color: white;
+  color: var(--c-black);
   flex-direction: column;
-  font-size: var(--f-u4);
+  font-size: var(--f-u3);
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 0.0625em;
@@ -25,8 +28,8 @@
 .titleCard {
   position: relative;
   background-size: cover;
-  background-position: 50% 100%;
-  padding-top: 37.5%;
+  background-position: 50% 45%;
+  aspect-ratio: 2/1;
 }
 
 .desc {

@@ -1,6 +1,35 @@
+/* playfair-display-regular - latin */
+@font-face {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    src: url('assests/fonts/playfair-display-v22-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('assests/fonts/playfair-display-v22-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('assests/fonts/playfair-display-v22-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('assests/fonts/playfair-display-v22-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('assests/fonts/playfair-display-v22-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('assests/fonts/playfair-display-v22-latin-regular.svg#PlayfairDisplay') format('svg'); /* Legacy iOS */
+  }
+  
+  /* playfair-display-700 - latin */
+  @font-face {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    src: url('assests/fonts/playfair-display-v22-latin-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('assests/fonts/playfair-display-v22-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('assests/fonts/playfair-display-v22-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('assests/fonts/playfair-display-v22-latin-700.woff') format('woff'), /* Modern Browsers */
+         url('assests/fonts/playfair-display-v22-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('assests/fonts/playfair-display-v22-latin-700.svg#PlayfairDisplay') format('svg'); /* Legacy iOS */
+  }
+  
 // Tokens
 :root {
   // (c)olor
+  --c-yellow: #F8E45B;
   --c-black: #05091e;
   --c-blue: #46b4ff;
   --c-gray: #90aab7;
@@ -9,8 +38,10 @@
   --c-orange: #ffb7a3;
   --c-yellow: #ffdace;
   --c-white: #fff;
+  --c-gray-light: #F0F0F0;
 
   // (f)ont
+  --f-display: "Playfair Display, serif";
   --f-u18: 11.390625em;
   --f-u17: 9.950627481136905em;
   --f-u16: 8.692673779389363em;
@@ -61,6 +92,10 @@ body {
   margin: 0;
   color: var(--t-fg);
   font-family: 'Inter', 'system-ui', sans-serif;
+  background-color: var(--c-gray-light);
+  display: flex;
+  flex-direction: column;
+
 }
 
 * {
@@ -83,7 +118,7 @@ h1 {
 // Utils
 
 // color
-$colors: 'black', 'blue', 'white';
+$colors: 'black', 'blue', 'white','gray';
 @each $color in $colors {
   // text color
   .tc-#{$color} {
