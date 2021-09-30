@@ -25,8 +25,7 @@ tags:
 
 Worte vom Dozenten, **Klaus Domass**:
 
-> „Tja … was soll man da sagen. Vorbildlich vielleicht? Schönes Projekt!“
-Deine App hat mir besonders gut gefallen. Du hast dich nicht gescheut Pionierarbeit mit Leaflet zu leisten.“
+> „ Deine App hat mir besonders gut gefallen. Du hast dich nicht gescheut Pionierarbeit mit Leaflet zu leisten.“
 
 ## Idee
 Ich möchte Windsport-Enthusiasten in Berlin unter die Arme greifen. Die App soll mit einem Blick eine schnelle Einschätzung geben, über Wind-stärke, -richtung und diese visuell unterstützen. Mit Windbarbs und einem Ampelsystem zeigt die App an, ob man gerade auf den Badeseen Berlins Windsport betreiben kann, oder nicht. Hier ein Einblick was sind Windbarbs, um warum sind Sie so nützlich zum darstellen von Windeigenschaften [How to read Wind Barbs](https://www.wikihow.com/Read-Wind-Barbs). 
