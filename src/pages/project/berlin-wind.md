@@ -18,7 +18,7 @@ tags:
 | ------------- | ------------- |
 | **Client:**  | [Cimdata, Berlin](https://www.cimdata.de/)  |
 | **Kurs:** | Webentwicklung JavaScript Aufbaukurs  |
-| **Zeitraum:** | 15.06-10.07.2020 |
+| **Zeitraum:** | 06.07-10.07.2020 |
 | **Projekt:** | **97**/100 Punkte|
 | **Github:** | [BerlinWind](https://github.com/marcograhl/BWind) |
 | **Link zur App:** | [App testen](https://marcograhl.github.io/BWind/) |
@@ -40,7 +40,7 @@ Der MVP definiert die Mindestanforderung der App und wird in der Entwicklungspha
 ## Die App
 ![WindBarb](/assets/projects/P-Berlinwindraw.jpg)
 
-Die Windbarbs sind an allen Badegewässern Berlins eingezeichnet und die Neigung zeigt die Windrichtung an. Durch anklicken eines Pins kann man direkt ablesen von wo der Wind herkommt und wieviel Km/h dieser aktuell beträgt. Die Legende gibt dem Windsportler Hinweise und die Möglichkeit sein Erfahrungswert auszuwählen. In der ersten Version kann man zwischen Beginner und Fortgeschritten auswählen. Das Ampelsystem passt sich dem Schwierigkeitsgrad an.
+Die Windbarbs sind an allen Badegewässern Berlins eingezeichnet und die Neigung der der Icons zeigt die Windrichtung an. Durch anklicken eines Pins kann man direkt ablesen von wo der Wind herkommt und wieviel Km/h dieser aktuell beträgt. Die Legende gibt dem Windsportler Hinweise und die Möglichkeit seinen Erfahrungswert auszuwählen. In der ersten Version kann man zwischen Beginner und Fortgeschritten auswählen. Das Ampelsystem passt sich dem Schwierigkeitsgrad an.
 
 ## Abschluss Worte
-Die Arbeit an der App hat mir besonders viel Spass gemacht. Man kann schnell erahnen wie powervoll eine interactive Map seien kann. Probiert Wind Berlin einfach selber mal aus [link](https://marcograhl.github.io/BWind/)
+Die Arbeit an der App hat mir besonders viel Spass gemacht. Man kann schnell erahnen wie powervoll eine interactive Map seien kann. Probiert "Windberlin" einfach selber mal aus [link](https://marcograhl.github.io/BWind/).
