@@ -20,8 +20,6 @@ const featuredProject = projects[0];
 @supports (display: grid) {
     .hero {
         display: grid;
-        grid-auto-columns: 1fr;
-        grid-auto-rows: 1fr;
         max-height: 40vh;
         grid-template-areas:
         "title img img"
@@ -29,11 +27,8 @@ const featuredProject = projects[0];
         "desk desk desk";
 
         @media (min-width: $w-s) {
-        grid-template-areas:
-        "title img img"
-        "desc img img"
-        "desk desk desk";
-
+          grid-auto-columns: 1fr;
+          
         }
     }
 }
@@ -63,9 +58,9 @@ const featuredProject = projects[0];
 
       .title {
         grid-column: title;
-        grid-row: title ;
-        justify-self: center;
         align-self: flex-end;
+        justify-self: center;
+        grid-row: title ;
         font-weight: 900;
         font-size: var(--f-u7);
         margin-bottom: 0.5rem;
