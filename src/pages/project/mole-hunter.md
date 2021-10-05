@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/project.astro
-title: Mole Huntig
+title: Mole Hunting
 client: Cimdata
 published_at: 2020-03-02 00:00:00
 img: /assets/projects/P-Molegame.jpg
