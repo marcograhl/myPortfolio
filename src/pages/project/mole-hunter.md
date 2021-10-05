@@ -28,7 +28,7 @@ Worte vom Dozenten, **Klaus Domass**
 
 ## Idee
 Wir bauen den Jahrmarkt Klassiker Hau-den-Maulwurf nach.
-Der Spieler hat ein Spielfeld mit Löchern vor sich, sowie ein Timer. Nach Spielbeginn tauchen jeweils zufällig Spielfiguren auf, die man mit einem Hammer zurück ins Loch befördert.
+Der Spieler hat ein Spielfeld mit Löchern vor sich. Nach Spielbeginn tauchen jeweils zufällig Spielfiguren auf, die man mit einem Hammer zurück ins Loch befördert.
 
 Schnelligkeit und Genauigkeit sind gefragt, denn diese Spielfiguren verschwinden auch ganz schnell wieder. 
 
@@ -54,6 +54,6 @@ Hier ein kleiner Überblick über die Einteilung der Arbeitsschritte, welche wir
 ![Zeitlicher Ablauf](/assets/projects/Timeline_MoleH.jpg)
 
 ## Abschluss Worte
-Ich hatte mit Herrn Ruppert einer der Besten programmier Erfahrungen machen dürfen. Wir haben zusammen das *Pair Programming* ausprobiert und unseren Fortschritt in Github festgehalten. Mit dem Editor *Visuell Studio Code* konnten wir auf dieselbe Datei zeitgleich zugreifen und so schnell zusammen zum gewünschten Ziel hinarbeiten. Das Ergebnis könnt ihr hier gleich selber testen [link](https://marcograhl.github.io/Project-Mole/)
+Ich hatte mit Herrn Ruppert einer der Besten programmier Erfahrungen machen dürfen. Wir haben zusammen das *Pair Programming* ausprobiert und unseren Fortschritt mit Github festgehalten. Mit dem Editor *Visuell Studio Code* konnten wir auf dieselbe Datei zeitgleich zugreifen und so schnell zusammen zum gewünschten Ziel hinarbeiten. Das Ergebnis könnt ihr hier gleich selber testen [link](https://marcograhl.github.io/Project-Mole/)
 
 **Wenn beide einen ähnlichen Wissenstand haben ist *Pair Programming* unschlagbar.** 
