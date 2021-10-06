@@ -32,24 +32,23 @@ Der Spieler hat ein Spielfeld mit Löchern vor sich. Nach Spielbeginn tauchen je
 
 Schnelligkeit und Genauigkeit sind gefragt, denn diese Spielfiguren verschwinden auch ganz schnell wieder. 
 
-**Man verliert ein Leben wenn man daneben haut, oder die Figur nicht erwischt.
+**Man verliert ein Leben, wenn man daneben haut oder die Figur nicht erwischt.
 Umso mehr Zeit verstreicht, desto schneller kommen die kleinen Biester aus ihren Verstecken. Überlebe so lange wie möglich!!!**
 
 ## Flow Chart
-Im Flow Chart legen wir mit einem Diagramm dar, wie der User sich durch unser Spiel bewegt. Wir bekommen so einen Eindruck welche Komponenten wir im Wireframe entwickeln müssen und wie diese zusammenspielen. Der User bekommt durch ein kleines "onboarding" eine Einleitung zum Spiel und gibt dann seinen Namen ein. 
+Im Flow Chart legen wir mit einem Diagramm dar, wie der User sich durch unser Spiel bewegt. Wir bekommen so einen Eindruck welche Komponenten wir im Wireframe entwickeln müssen und wie diese zusammenspielen. Der User bekommt durch ein kleines »Onboarding«, eine Einleitung zum Spiel und gibt dann seinen Namen ein. 
 
 Im nächsten Schritt landet man auf dem Spielfeld. Der User kann nun das Spiel mit 3 Leben starten. Der Schwierigkeitsgrad erhöht sich, umso mehr Zeit verstreicht. Verfehlt der Spieler den aufpoppenden Maulwurf, dann verliert er ein Leben. Sind die Leben auf 0 erloschen, dann besteht die Möglichkeit es nochmal zu versuchen.
 
 ![Flow Chart](/assets/projects/FC-Mole.jpg)
 
 ## Gui
-In der "Graphical user Interface" gehen wir detailiert auf visuelle Umsetzung ein.
+In der »Graphical User Interface« gehen wir detailliert auf visuelle Umsetzung ein.
 Wir haben hier ein Feld von 3*3 ausgewählt, da das Spiel doch recht schnell an Schwierigkeit zunimmt.
-
 ![Gui Mole Hunter](/assets/projects/Gui-MoleH.jpg)
 
 ## Zeitlicher Ablauf
-Hier ein kleiner Überblick über die Einteilung der Arbeitsschritte, welche wir vor dem programmieren festgelegt hatten. Diese Einteilung diente als Leitfaden und zeitliche Richtlinie.
+Hier ein kleiner Überblick über die Einteilung der Arbeitsschritte, welche wir vor dem Programmieren festgelegt hatten. Diese Einteilung diente als Leitfaden und zeitliche Richtlinie.
 
 ![Zeitlicher Ablauf](/assets/projects/Timeline_MoleH.jpg)
 
